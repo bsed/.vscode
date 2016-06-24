@@ -1,0 +1,123 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "dfc91f03-d4f2-461b-a26d-b8b4dc02474f",
+		"publisherId": "c638ec24-b0fd-4f47-bef6-410bd58e39ea",
+		"publisherDisplayName": "imperez",
+		"installCount": 996,
+		"versions": [
+			{
+				"version": "0.2.0",
+				"date": "2016-05-03T15:14:40.167Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://imperez.gallery.vsassets.io/_apis/public/gallery/publisher/imperez/extension/smarty/0.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://imperez.gallery.vsassets.io/_apis/public/gallery/publisher/imperez/extension/smarty/0.2.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.1.1",
+				"date": "2016-04-25T20:13:52.06Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://imperez.gallery.vsassets.io/_apis/public/gallery/publisher/imperez/extension/smarty/0.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://imperez.gallery.vsassets.io/_apis/public/gallery/publisher/imperez/extension/smarty/0.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.1.0",
+				"date": "2016-02-02T15:07:37.007Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://imperez.gallery.vsassets.io/_apis/public/gallery/publisher/imperez/extension/smarty/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://imperez.gallery.vsassets.io/_apis/public/gallery/publisher/imperez/extension/smarty/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.2",
+				"date": "2016-02-01T22:07:30.62Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://imperez.gallery.vsassets.io/_apis/public/gallery/publisher/imperez/extension/smarty/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://imperez.gallery.vsassets.io/_apis/public/gallery/publisher/imperez/extension/smarty/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.1",
+				"date": "2016-02-01T16:48:33.11Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://imperez.gallery.vsassets.io/_apis/public/gallery/publisher/imperez/extension/smarty/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://imperez.gallery.vsassets.io/_apis/public/gallery/publisher/imperez/extension/smarty/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "smarty",
+	"displayName": "Smarty",
+	"description": "Syntax highlighting for the Smarty templating language.",
+	"version": "0.2.0",
+	"icon": "images/logo.png",
+	"publisher": "imperez",
+	"engines": {
+		"vscode": "^0.10.x"
+	},
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"keywords": [
+		"smarty",
+		"php",
+		"syntax",
+		"snippets"
+	],
+	"bugs": {
+		"url": "https://github.com/imperez/vscode-smarty/issues"
+	},
+	"homepage": "https://github.com/imperez/vscode-smarty/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/imperez/vscode-smarty.git"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "smarty",
+				"aliases": [
+					"Smarty",
+					"smarty"
+				],
+				"extensions": [
+					".tpl",
+					".smarty",
+					".html.smarty"
+				],
+				"configuration": "./smarty.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "smarty",
+				"scopeName": "text.html.smarty",
+				"path": "./syntaxes/smarty.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "smarty",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}

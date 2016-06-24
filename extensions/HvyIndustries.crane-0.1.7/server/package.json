@@ -1,0 +1,22 @@
+{
+    "name": "crane-lang-server",
+    "description": "The language server for Crane",
+    "version": "1.0.1",
+    "author": "HVY Industries",
+    "license": "MIT",
+    "engines": {
+        "node": "*"
+    },
+    "dependencies": {
+        "vscode-languageserver": "^1.1.0",
+        "php-parser": "glayzzle/php-parser#6131b11",
+        "glob": "7.0.3"
+    },
+    "devDependencies": {
+        "typescript": "^1.6.2"
+    },
+    "scripts": {
+        "compile": "installServerIntoExtension ../client ./package.json ./tsconfig.json && tsc -p .",
+        "watch": "installServerIntoExtension ../client ./package.json ./tsconfig.json && tsc --watch -p ."
+    }
+}

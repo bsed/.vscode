@@ -1,0 +1,84 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "1663ddb7-a769-4ac1-8a59-dcec931f945a",
+		"publisherId": "cc339c68-f1cb-425a-bff2-cc08626b05a3",
+		"publisherDisplayName": "alechp",
+		"installCount": 87,
+		"versions": [
+			{
+				"version": "0.12.0",
+				"date": "2016-05-02T01:34:16.237Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alechp.gallery.vsassets.io/_apis/public/gallery/publisher/alechp/extension/react-toolbox-snippets/0.12.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alechp.gallery.vsassets.io/_apis/public/gallery/publisher/alechp/extension/react-toolbox-snippets/0.12.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.11.0",
+				"date": "2016-05-02T01:32:57.947Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alechp.gallery.vsassets.io/_apis/public/gallery/publisher/alechp/extension/react-toolbox-snippets/0.11.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alechp.gallery.vsassets.io/_apis/public/gallery/publisher/alechp/extension/react-toolbox-snippets/0.11.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.10.0",
+				"date": "2016-05-02T01:13:15.897Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alechp.gallery.vsassets.io/_apis/public/gallery/publisher/alechp/extension/react-toolbox-snippets/0.10.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alechp.gallery.vsassets.io/_apis/public/gallery/publisher/alechp/extension/react-toolbox-snippets/0.10.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.8.0",
+				"date": "2016-05-02T00:26:08.547Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alechp.gallery.vsassets.io/_apis/public/gallery/publisher/alechp/extension/react-toolbox-snippets/0.8.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alechp.gallery.vsassets.io/_apis/public/gallery/publisher/alechp/extension/react-toolbox-snippets/0.8.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.7.0",
+				"date": "2016-05-01T23:49:15.5Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alechp.gallery.vsassets.io/_apis/public/gallery/publisher/alechp/extension/react-toolbox-snippets/0.7.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alechp.gallery.vsassets.io/_apis/public/gallery/publisher/alechp/extension/react-toolbox-snippets/0.7.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "react-toolbox-snippets",
+	"displayName": "React Toolbox Snippets",
+	"description": "Component sample code from http://react-toolbox.com",
+	"icon": "images/reacttoolbox-icon.png",
+	"galleryBanner": {
+		"theme": "dark"
+	},
+	"version": "0.12.0",
+	"publisher": "alechp",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}

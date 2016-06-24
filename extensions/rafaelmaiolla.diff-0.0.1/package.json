@@ -1,0 +1,73 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "eb39a187-1f56-4627-95bf-0e39d7449ef4",
+		"publisherId": "13d00c77-ca61-4712-811f-0b1a9dfbc3c1",
+		"publisherDisplayName": "Rafael Maiolla",
+		"installCount": 518,
+		"versions": [
+			{
+				"version": "0.0.1",
+				"date": "2016-03-25T15:25:10.59Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://rafaelmaiolla.gallery.vsassets.io/_apis/public/gallery/publisher/rafaelmaiolla/extension/diff/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://rafaelmaiolla.gallery.vsassets.io/_apis/public/gallery/publisher/rafaelmaiolla/extension/diff/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "diff",
+	"displayName": "diff",
+	"description": "Syntax highlighting for diff files.",
+	"version": "0.0.1",
+	"publisher": "rafaelmaiolla",
+	"license": "MIT",
+	"author": "Rafael Maiolla <rafaelmaiolla@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rafaelmaiolla/diff-vscode"
+	},
+	"bugs": {
+		"url": "https://github.com/rafaelmaiolla/diff-vscode/issues"
+	},
+	"engines": {
+		"vscode": "^0.10.10"
+	},
+	"keywords": [
+		"diff",
+		"patch",
+		"rej",
+		"Visual Studio Code",
+		"VSCode"
+	],
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "diff",
+				"aliases": [
+					"Diff",
+					"diff"
+				],
+				"extensions": [
+					".patch",
+					".diff",
+					".rej"
+				],
+				"configuration": "./diff.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "diff",
+				"scopeName": "source.diff",
+				"path": "./syntaxes/diff.tmLanguage"
+			}
+		]
+	}
+}

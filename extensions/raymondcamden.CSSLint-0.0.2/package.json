@@ -1,0 +1,71 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "592341ba-1a9f-4f90-9880-90614f5d574e",
+		"publisherId": "7483a41b-963b-44b4-98f8-5cace52cdb21",
+		"publisherDisplayName": "Raymond Camden",
+		"installCount": 2101,
+		"versions": [
+			{
+				"version": "0.0.2",
+				"date": "2015-12-18T20:47:09.207Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://raymondcamden.gallery.vsassets.io/_apis/public/gallery/publisher/raymondcamden/extension/CSSLint/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://raymondcamden.gallery.vsassets.io/_apis/public/gallery/publisher/raymondcamden/extension/CSSLint/0.0.2/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.1",
+				"date": "2015-12-16T20:22:46.39Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://raymondcamden.gallery.vsassets.io/_apis/public/gallery/publisher/raymondcamden/extension/CSSLint/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://raymondcamden.gallery.vsassets.io/_apis/public/gallery/publisher/raymondcamden/extension/CSSLint/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "CSSLint",
+	"description": "CSSLint extension",
+	"author": "Raymond Camden",
+	"license": "MIT",
+	"version": "0.0.2",
+	"publisher": "raymondcamden",
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Linters"
+	],
+	"activationEvents": [
+		"onLanguage:css"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Example configuration",
+			"properties": {
+				"languageServerExample.maxNumberOfProblems": {
+					"type": "number",
+					"default": 100,
+					"description": "Controls the maximum number of problems produced by the server."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+	},
+	"devDependencies": {
+		"typescript": "^1.6.2",
+		"vscode": "0.10.x"
+	},
+	"dependencies": {
+		"vscode-languageclient": "^1.1.0"
+	}
+}

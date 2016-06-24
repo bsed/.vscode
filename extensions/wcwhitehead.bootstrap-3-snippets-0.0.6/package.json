@@ -1,0 +1,119 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "fade5c3d-baa8-4693-9672-8618c34bc79e",
+		"publisherId": "1c943eba-c73d-4022-972f-8043416b8fd1",
+		"publisherDisplayName": "William Whitehead",
+		"installCount": 21356,
+		"versions": [
+			{
+				"version": "0.0.6",
+				"date": "2016-06-03T13:28:54.263Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.0",
+					"User-Agent": "VSCode 1.2.0",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.6/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.5",
+				"date": "2016-03-14T13:22:11.15Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.0",
+					"User-Agent": "VSCode 1.2.0",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.4",
+				"date": "2015-12-31T22:37:55.863Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.0",
+					"User-Agent": "VSCode 1.2.0",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.3",
+				"date": "2015-12-10T14:51:16.123Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.0",
+					"User-Agent": "VSCode 1.2.0",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.2",
+				"date": "2015-12-10T14:12:58.543Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.0",
+					"User-Agent": "VSCode 1.2.0",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.1",
+				"date": "2015-12-09T22:09:49.437Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.0",
+					"User-Agent": "VSCode 1.2.0",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://wcwhitehead.gallery.vsassets.io/_apis/public/gallery/publisher/wcwhitehead/extension/bootstrap-3-snippets/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "bootstrap-3-snippets",
+	"displayName": "Bootstrap 3 Snippets",
+	"description": "Bootstrap 3 Snippets for VS Code",
+	"icon": "images/icon.png",
+	"version": "0.0.6",
+	"publisher": "wcwhitehead",
+	"license": "See License section in README.md",
+	"homepage": "https://github.com/wcwhitehead/bootstrap-3-snippets/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wcwhitehead/bootstrap-3-snippets.git"
+	},
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"galleryBanner": {
+		"color": "#E6E0EA",
+		"theme": "light"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "handlebars",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "razor",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}

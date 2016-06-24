@@ -1,0 +1,171 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "6c6d4703-0393-49e4-bcbe-2c01f5184522",
+		"publisherId": "249023ea-b388-4308-89f3-e5e6cfd85f9a",
+		"publisherDisplayName": "André Junges",
+		"installCount": 2873,
+		"versions": [
+			{
+				"version": "0.1.2",
+				"date": "2016-03-20T22:41:24.97Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.1.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.1.2/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.1.1",
+				"date": "2016-03-14T14:57:47.257Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.1.0",
+				"date": "2016-03-04T04:42:59.863Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.8",
+				"date": "2015-11-19T17:15:55.95Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.7",
+				"date": "2015-11-19T02:50:58.007Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.7/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.7/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.6",
+				"date": "2015-11-19T02:45:54.937Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.5",
+				"date": "2015-11-19T02:40:00.98Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.4",
+				"date": "2015-11-19T02:37:06.2Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.3",
+				"date": "2015-11-19T02:34:44.757Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.2",
+				"date": "2015-11-19T02:33:28.817Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://andrejunges.gallery.vsassets.io/_apis/public/gallery/publisher/andrejunges/extension/Handlebars/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "Handlebars",
+	"description": "Handlebars Visual Studio Code",
+	"version": "0.1.2",
+	"publisher": "andrejunges",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andrejunges/vscode-handlebars"
+	},
+	"galleryBanner": {
+		"color": "#0F6378",
+		"theme": "dark"
+	},
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "handlebars",
+				"aliases": [
+					"Handlebars",
+					"handlebars"
+				],
+				"extensions": [
+					".handlebars",
+					".hbs",
+					".tpl"
+				],
+				"configuration": "./handlebars.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "handlebars",
+				"scopeName": "text.html.handlebars",
+				"path": "./syntaxes/handlebars.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "handlebars",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}

@@ -1,0 +1,156 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "be992f3f-9f22-4b66-a1d2-ecad04c28a28",
+		"publisherId": "7fe357ee-5480-4a7d-a4e9-009d9438c2a3",
+		"publisherDisplayName": "Mohamed Abusaid",
+		"installCount": 34755,
+		"versions": [
+			{
+				"version": "0.0.13",
+				"date": "2016-04-20T20:25:11.903Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.13/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.13/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.12",
+				"date": "2016-04-13T19:13:04.77Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.11",
+				"date": "2016-03-31T21:28:40.3Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.11/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.11/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.10",
+				"date": "2016-01-16T14:17:12.737Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.9",
+				"date": "2016-01-16T14:06:28.89Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.8",
+				"date": "2015-12-24T22:29:43.013Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.7",
+				"date": "2015-12-24T22:26:12.593Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.7/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.7/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.6",
+				"date": "2015-12-24T20:01:18.963Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.5",
+				"date": "2015-12-24T19:43:13.677Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.4",
+				"date": "2015-12-24T19:31:32.94Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.3",
+				"date": "2015-12-24T19:27:06.857Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://abusaidm.gallery.vsassets.io/_apis/public/gallery/publisher/abusaidm/extension/html-snippets/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "html-snippets",
+	"displayName": "HTML Snippets",
+	"description": "Full HTML tags including HTML5 Snippets",
+	"version": "0.0.13",
+	"publisher": "abusaidm",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"galleryBanner": {
+		"color": "#1E81C1",
+		"theme": "light"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}

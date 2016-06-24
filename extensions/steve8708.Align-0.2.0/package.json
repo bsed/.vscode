@@ -1,0 +1,215 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "835af090-485a-48fc-bc95-4dd5b3e79734",
+		"publisherId": "42c0760b-fc8c-46bc-975e-4de389991ae8",
+		"publisherDisplayName": "steve8708",
+		"installCount": 6598,
+		"versions": [
+			{
+				"version": "0.2.0",
+				"date": "2016-03-10T17:09:17.013Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.2.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.1.0",
+				"date": "2016-03-09T19:20:55.16Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.6",
+				"date": "2015-11-19T05:57:47.32Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.5",
+				"date": "2015-11-19T05:56:46.67Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.4",
+				"date": "2015-11-19T05:54:55.72Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.3",
+				"date": "2015-11-19T05:54:23.33Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.2",
+				"date": "2015-11-19T05:47:17.467Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.1",
+				"date": "2015-11-19T05:36:00.897Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://steve8708.gallery.vsassets.io/_apis/public/gallery/publisher/steve8708/extension/Align/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "Align",
+	"displayName": "Align",
+	"description": "Align text in vscode like the atom-alignment package",
+	"version": "0.2.0",
+	"publisher": "steve8708",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/steve8708/vscode-align"
+	},
+	"keywords": [
+		"align",
+		"alignment",
+		"format"
+	],
+	"homepage": "https://github.com/steve8708/vscode-align",
+	"bugs": {
+		"url": "https://github.com/steve8708/vscode-align/issues"
+	},
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.align"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.align",
+				"title": "Align"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Align extension configuration",
+			"properties": {
+				"align.leftSeparators": {
+					"type": "array",
+					"default": [
+						":"
+					],
+					"items": {
+						"type": "string"
+					}
+				},
+				"align.rightSeparators": {
+					"type": "array",
+					"default": [
+						"=",
+						"+=",
+						"-=",
+						"*=",
+						"/=",
+						"?=",
+						"|=",
+						"%=",
+						".=",
+						"=>"
+					],
+					"items": {
+						"type": "string"
+					}
+				},
+				"align.spaceSeparators": {
+					"type": "array",
+					"default": [
+						"=",
+						"+=",
+						"-=",
+						"*=",
+						"/=",
+						"?=",
+						"|=",
+						"%=",
+						".=",
+						"=>"
+					],
+					"items": {
+						"type": "string"
+					}
+				},
+				"align.ignoreSeparators": {
+					"type": "array",
+					"default": [
+						"::"
+					],
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"keybindings": [
+			{
+				"command": "extension.align",
+				"key": "ctrl+alt+a",
+				"mac": "ctrl+cmd+a",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+	},
+	"devDependencies": {
+		"typescript": "^1.6.2",
+		"vscode": "0.10.x"
+	},
+	"dependencies": {
+		"alignment": "0.0.1"
+	}
+}

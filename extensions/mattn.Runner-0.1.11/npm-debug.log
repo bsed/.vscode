@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\msys64\\mingw64\\bin\\node.exe',
+1 verbose cli   'C:\\msys64\\mingw64\\lib\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'compile' ]
+2 info using npm@1.4.28
+3 info using node@v5.1.0
+4 verbose run-script [ 'precompile', 'compile', 'postcompile' ]
+5 info precompile Runner@0.1.8
+6 info compile Runner@0.1.8
+7 verbose unsafe-perm in lifecycle true
+8 info Runner@0.1.8 Failed to exec compile script
+9 error Runner@0.1.8 compile: `node ./node_modules/vscode/bin/compile -watch -p ./`
+9 error Exit status 1
+10 error Failed at the Runner@0.1.8 compile script.
+10 error This is most likely a problem with the Runner package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     node ./node_modules/vscode/bin/compile -watch -p ./
+10 error You can get their info via:
+10 error     npm owner ls Runner
+10 error There is likely additional logging output above.
+11 error System Windows_NT 10.0.10586
+12 error command "C:\\msys64\\mingw64\\bin\\node.exe" "C:\\msys64\\mingw64\\lib\\node_modules\\npm\\bin\\npm-cli.js" "run" "compile"
+13 error cwd C:\Users\mattn\.vscode\extensions\vscode-runner
+14 error node -v v5.1.0
+15 error npm -v 1.4.28
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]

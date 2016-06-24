@@ -1,0 +1,53 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "bae95a90-c590-4146-bd8f-507c7847fce2",
+		"publisherId": "a6c6a266-0e14-43b1-8307-7dea7efbff6f",
+		"publisherDisplayName": "Valerii Iatsko",
+		"installCount": 333,
+		"versions": [
+			{
+				"version": "1.0.0",
+				"date": "2016-02-07T21:12:45.46Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://viatsko.gallery.vsassets.io/_apis/public/gallery/publisher/viatsko/extension/theme-base16-ocean-dark/1.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://viatsko.gallery.vsassets.io/_apis/public/gallery/publisher/viatsko/extension/theme-base16-ocean-dark/1.0.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.1",
+				"date": "2016-02-07T21:11:05.59Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://viatsko.gallery.vsassets.io/_apis/public/gallery/publisher/viatsko/extension/theme-base16-ocean-dark/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://viatsko.gallery.vsassets.io/_apis/public/gallery/publisher/viatsko/extension/theme-base16-ocean-dark/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "theme-base16-ocean-dark",
+	"displayName": "Base16 Ocean Dark",
+	"description": "",
+	"version": "1.0.0",
+	"publisher": "viatsko",
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Base16 Ocean Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/base16-ocean.dark.tmTheme"
+			}
+		]
+	}
+}

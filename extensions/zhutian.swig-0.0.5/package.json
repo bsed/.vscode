@@ -1,0 +1,110 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "07e1dd03-92c5-45ef-ab1c-e74986aa3e95",
+		"publisherId": "79a62660-0ab7-4b92-a72c-8c31237be04c",
+		"publisherDisplayName": "zhutian",
+		"installCount": 274,
+		"versions": [
+			{
+				"version": "0.0.5",
+				"date": "2015-12-24T05:15:53.753Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://zhutian.gallery.vsassets.io/_apis/public/gallery/publisher/zhutian/extension/swig/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://zhutian.gallery.vsassets.io/_apis/public/gallery/publisher/zhutian/extension/swig/0.0.5/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.4",
+				"date": "2015-12-24T05:12:30.927Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://zhutian.gallery.vsassets.io/_apis/public/gallery/publisher/zhutian/extension/swig/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://zhutian.gallery.vsassets.io/_apis/public/gallery/publisher/zhutian/extension/swig/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.3",
+				"date": "2015-12-24T04:50:52.903Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://zhutian.gallery.vsassets.io/_apis/public/gallery/publisher/zhutian/extension/swig/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://zhutian.gallery.vsassets.io/_apis/public/gallery/publisher/zhutian/extension/swig/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.2",
+				"date": "2015-12-24T04:40:41.677Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://zhutian.gallery.vsassets.io/_apis/public/gallery/publisher/zhutian/extension/swig/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://zhutian.gallery.vsassets.io/_apis/public/gallery/publisher/zhutian/extension/swig/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.1",
+				"date": "2015-12-24T04:33:58.907Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://zhutian.gallery.vsassets.io/_apis/public/gallery/publisher/zhutian/extension/swig/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://zhutian.gallery.vsassets.io/_apis/public/gallery/publisher/zhutian/extension/swig/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "swig",
+	"displayName": "Swig",
+	"description": "A language support for Swig",
+	"version": "0.0.5",
+	"publisher": "zhutian",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"keywords": [
+		"swig"
+	],
+	"icon": "img/icon.png",
+	"contributes": {
+		"languages": [
+			{
+				"id": "swig",
+				"aliases": [
+					"Swig",
+					"swig"
+				],
+				"extensions": [
+					".swig"
+				],
+				"configuration": "./swig.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "swig",
+				"scopeName": "text.html.swig",
+				"path": "./syntaxes/swig.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "swig",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}

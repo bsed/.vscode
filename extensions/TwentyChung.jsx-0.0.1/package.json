@@ -1,0 +1,54 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "0e0de266-c53a-46cb-ac7c-9ac2bd998673",
+		"publisherId": "ebaa77e8-5f1e-4a48-9dda-2deacc9bd4db",
+		"publisherDisplayName": "TwentyChung",
+		"installCount": 12475,
+		"versions": [
+			{
+				"version": "0.0.1",
+				"date": "2015-11-23T08:19:28.917Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://twentychung.gallery.vsassets.io/_apis/public/gallery/publisher/TwentyChung/extension/jsx/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://twentychung.gallery.vsassets.io/_apis/public/gallery/publisher/TwentyChung/extension/jsx/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "jsx",
+	"description": "React JSX Support for Visual Studio Code",
+	"version": "0.0.1",
+	"publisher": "TwentyChung",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "jsx",
+				"aliases": [
+					"JSX",
+					"jsx"
+				],
+				"extensions": [
+					".jsx",
+					".bsh"
+				],
+				"configuration": "./jsx.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "jsx",
+				"scopeName": "source.jsx",
+				"path": "./syntaxes/jsx.tmLanguage"
+			}
+		]
+	}
+}

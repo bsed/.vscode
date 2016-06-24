@@ -1,0 +1,230 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "949eb1e5-b41c-413f-99da-6b57cdaed1b4",
+		"publisherId": "d0da30bb-6c9f-4482-8b47-080dc94e6008",
+		"publisherDisplayName": "Martin Kase",
+		"installCount": 35351,
+		"versions": [
+			{
+				"version": "1.3.0",
+				"date": "2016-04-26T20:29:28.967Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.3.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "1.2.3",
+				"date": "2016-01-31T18:08:31.037Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.2.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.2.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "1.2.2",
+				"date": "2016-01-24T14:17:11.007Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.2.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.2.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "1.2.1",
+				"date": "2016-01-13T20:07:48.477Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.2.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.2.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "1.2.0",
+				"date": "2016-01-06T22:05:46.837Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "1.1.2",
+				"date": "2016-01-06T11:13:46.1Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.1.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.1.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "1.1.1",
+				"date": "2016-01-06T10:50:22.753Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "1.1.0",
+				"date": "2015-12-26T18:00:11.093Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "1.0.2",
+				"date": "2015-12-09T22:28:33.093Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "1.0.1",
+				"date": "2015-12-07T21:35:39.6Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "1.0.0",
+				"date": "2015-12-05T21:41:33.123Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/1.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.6",
+				"date": "2015-12-05T21:40:21.4Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.5",
+				"date": "2015-12-02T15:46:23.757Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.4",
+				"date": "2015-12-02T12:23:53.22Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.3",
+				"date": "2015-12-01T17:17:12.863Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.2",
+				"date": "2015-12-01T16:02:19.6Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.1",
+				"date": "2015-12-01T15:56:15.287Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode",
+					"User-Agent": "VSCode",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://kasik96.gallery.vsassets.io/_apis/public/gallery/publisher/Kasik96/extension/format-indent/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "format-indent",
+	"displayName": "PHP Code Format",
+	"description": "Code format for PHP Language",
+	"version": "1.3.0",
+	"publisher": "Kasik96",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"icon": "media/icon.png",
+	"galleryBanner": {
+		"color": "#0000FF",
+		"theme": "dark"
+	},
+	"bugs": {
+		"url": "https://github.com/kasik96/VSCode-PHP-Format/issues",
+		"email": "kasemartin@icloud.com"
+	},
+	"homepage": "https://github.com/kasik96/VSCode-PHP-Format",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kasik96/VSCode-PHP-Format"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:php"
+	],
+	"main": "./extension",
+	"devDependencies": {
+		"vscode": "0.10.x"
+	}
+}
