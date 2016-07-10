@@ -1,0 +1,94 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "ab80eddf-245c-49dc-b4c7-a7893f803cf4",
+		"publisherId": "15f13224-d11e-41cc-91d3-9188297983e6",
+		"publisherDisplayName": "makao",
+		"installCount": 1281,
+		"versions": [
+			{
+				"version": "0.0.1",
+				"date": "2016-03-11T11:11:01.977Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://makao.gallery.vsassets.io/_apis/public/gallery/publisher/makao/extension/phpcsfixer/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://makao.gallery.vsassets.io/_apis/public/gallery/publisher/makao/extension/phpcsfixer/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "phpcsfixer",
+	"displayName": "PHP CS Fixer",
+	"description": "PHP CS Fixer extension for VS Code",
+	"version": "0.0.1",
+	"publisher": "makao",
+	"author": {
+		"name": "Marcin Makalowski",
+		"url": "http://makao.pl"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/makao/vscode-phpcsfixer/issues"
+	},
+	"homepage": "https://github.com/makao/vscode-phpcsfixer/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/makao/vscode-phpcsfixer.git"
+	},
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"categories": [
+		"Linters",
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:php"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "phpcsfixer.fix",
+				"title": "PHP CS Fixer: fix this file"
+			}
+		],
+		"configuration": {
+			"title": "PHP CS Fixer Configuration options",
+			"type": "object",
+			"properties": {
+				"phpcsfixer.executablePath": {
+					"type": "string",
+					"default": "php-cs-fixer",
+					"description": "Points to the php-cs-fixer exectuable."
+				},
+				"phpcsfixer.onsave": {
+					"type": "boolean",
+					"default": false,
+					"description": "Execute PHP CS Fixer on save"
+				},
+				"phpcsfixer.level": {
+					"type": "string",
+					"default": "psr2",
+					"description": "PHP CS Fixer level setting (psr0, psr1, psr2, symfony)"
+				},
+				"phpcsfixer.fixers": {
+					"type": "string",
+					"default": "",
+					"description": "List of fixers, @see: http://cs.sensiolabs.org/#usage"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"typescript": "^1.7.5",
+		"vscode": "^0.11.0"
+	}
+}

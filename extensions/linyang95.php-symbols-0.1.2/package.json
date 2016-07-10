@@ -1,0 +1,124 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "80cd78fe-5f26-46fd-bfca-cd9b9a17329e",
+		"publisherId": "843b7523-3af0-4361-9f21-7d4ed539b279",
+		"publisherDisplayName": "lin yang",
+		"installCount": 3395,
+		"versions": [
+			{
+				"version": "0.1.2",
+				"date": "2016-06-02T13:24:01.78Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.1.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.1.2/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.1.1",
+				"date": "2016-04-17T15:25:17.593Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.1.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.1.0",
+				"date": "2016-04-17T05:06:11.243Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.1.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.4",
+				"date": "2016-04-15T02:05:14.947Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.0.4/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.3",
+				"date": "2016-04-14T13:02:59.92Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.0.3/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.2",
+				"date": "2016-04-14T12:30:41.857Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.0.2/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.1",
+				"date": "2016-04-14T12:22:36.11Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://linyang95.gallery.vsassets.io/_apis/public/gallery/publisher/linyang95/extension/php-symbols/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "php-symbols",
+	"displayName": "PHP Symbols",
+	"description": "support php symbols",
+	"version": "0.1.2",
+	"publisher": "linyang95",
+	"author": "Yang Lin",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"homepage": "https://github.com/ly95/vsc.php-symbols",
+	"icon": "images/icon.svg",
+	"bugs": {
+		"url": "https://github.com/ly95/vsc.php-symbols/issues",
+		"email": "linyang95@aol.com"
+	},
+	"engines": {
+		"vscode": "^0.10.10"
+	},
+	"categories": [
+		"Languages"
+	],
+	"keywords": [
+		"symbols",
+		"php"
+	],
+	"activationEvents": [
+		"onLanguage:php"
+	],
+	"main": "./out/src/extension",
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"typescript": "^1.8.5",
+		"vscode": "^0.11.0"
+	}
+}
