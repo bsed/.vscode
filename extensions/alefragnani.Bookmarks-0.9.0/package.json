@@ -1,0 +1,336 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "b689fcc8-d494-4dbf-a228-2c694a578afc",
+		"publisherId": "3fbdef65-bdf5-4723-aeaf-9e12a50546ef",
+		"publisherDisplayName": "Alessandro Fragnani",
+		"installCount": 22840,
+		"versions": [
+			{
+				"version": "0.9.0",
+				"date": "2016-07-14T02:47:58.353Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.9.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.9.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.8.0",
+				"date": "2016-06-03T00:23:47.727Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.8.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.8.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.7.2",
+				"date": "2016-05-28T18:07:17.847Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.7.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.7.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.7.1",
+				"date": "2016-05-15T00:09:23.043Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.7.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.7.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.7.0",
+				"date": "2016-04-15T23:45:14.827Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.7.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.7.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.6.0",
+				"date": "2016-03-09T01:31:47.31Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.6.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.6.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.5.0",
+				"date": "2016-02-20T23:28:13.307Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.5.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.5.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.4.0",
+				"date": "2016-02-17T23:39:53.827Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.4.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.4.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.3.0",
+				"date": "2016-01-16T15:08:05.373Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.2.0",
+				"date": "2015-12-01T00:10:12.447Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.1.1",
+				"date": "2015-11-18T20:53:46.547Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.1.0",
+				"date": "2015-11-17T23:56:19.683Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.5",
+				"date": "2015-11-16T15:40:20.18Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.4",
+				"date": "2015-11-16T14:42:29.103Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.3",
+				"date": "2015-11-16T00:30:25.237Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.2",
+				"date": "2015-11-14T18:59:58.69Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			},
+			{
+				"version": "0.0.1",
+				"date": "2015-11-14T12:34:35.677Z",
+				"downloadHeaders": {
+					"X-Market-Client-Id": "VSCode 1.2.1",
+					"User-Agent": "VSCode 1.2.1",
+					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
+				},
+				"downloadUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+				"manifestUrl": "https://alefragnani.gallery.vsassets.io/_apis/public/gallery/publisher/alefragnani/extension/Bookmarks/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage/Microsoft.VisualStudio.Code.Manifest"
+			}
+		]
+	},
+	"name": "Bookmarks",
+	"displayName": "Bookmarks",
+	"description": "Mark lines and jump to them",
+	"version": "0.9.0",
+	"publisher": "alefragnani",
+	"galleryBanner": {
+		"color": "#000000",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^0.10.7"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"bookmarks",
+		"sticky"
+	],
+	"icon": "images/icon.png",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"homepage": "https://github.com/alefragnani/vscode-bookmarks/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alefragnani/vscode-bookmarks.git"
+	},
+	"bugs": {
+		"url": "https://github.com/alefragnani/vscode-bookmarks/issues"
+	},
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "bookmarks.toggle",
+				"title": "Bookmarks: Toggle"
+			},
+			{
+				"command": "bookmarks.jumpToNext",
+				"title": "Bookmarks: Jump to Next"
+			},
+			{
+				"command": "bookmarks.jumpToPrevious",
+				"title": "Bookmarks: Jump to Previous"
+			},
+			{
+				"command": "bookmarks.list",
+				"title": "Bookmarks: List"
+			},
+			{
+				"command": "bookmarks.clear",
+				"title": "Bookmarks: Clear"
+			},
+			{
+				"command": "bookmarks.listFromAllFiles",
+				"title": "Bookmarks: List from All Files"
+			},
+			{
+				"command": "bookmarks.clearFromAllFiles",
+				"title": "Bookmarks: Clear from All Files"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"command": "bookmarks.toggle",
+					"group": "bookmarks"
+				}
+			],
+			"editor/title": [
+				{
+					"command": "bookmarks.list",
+					"group": "bookmarks"
+				},
+				{
+					"command": "bookmarks.clear",
+					"group": "bookmarks"
+				}
+			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "Bookmarks Configuration",
+			"properties": {
+				"bookmarks.saveBookmarksBetweenSessions": {
+					"type": "boolean",
+					"default": false,
+					"description": "Allow bookmarks to be saved and restored, even if you close or change the Project"
+				},
+				"bookmarks.gutterIconPath": {
+					"type": "string",
+					"default": "",
+					"description": "Path to another image to be presented as Bookmark"
+				},
+				"bookmarks.navigateThroughAllFiles": {
+					"type": "boolean",
+					"default": false,
+					"description": "Allow navigation look for bookmarks in all files in the project, instead of only the current"
+				},
+				"bookmarks.useStickyBookmarks": {
+					"type": "boolean",
+					"default": false,
+					"description": "The bookmarks will be glued to the line of code instead of the line of the file"
+				}
+			}
+		},
+		"keybindings": [
+			{
+				"command": "bookmarks.toggle",
+				"key": "ctrl+alt+k",
+				"mac": "cmd+alt+k",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "bookmarks.jumpToNext",
+				"key": "ctrl+alt+l",
+				"mac": "cmd+alt+l",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "bookmarks.jumpToPrevious",
+				"key": "ctrl+alt+j",
+				"mac": "cmd+alt+j",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"vscode": "^0.11.x",
+		"typescript": "^1.6.2"
+	}
+}
