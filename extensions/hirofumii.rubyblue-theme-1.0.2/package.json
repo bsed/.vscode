@@ -1,0 +1,32 @@
+{
+	"name": "rubyblue-theme",
+	"displayName": "RubyBlue Theme",
+	"description": "Dark, high contrast theme.",
+	"version": "1.0.2",
+	"publisher": "hirofumii",
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#112435",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ruby Blue",
+				"uiTheme": "vs-dark",
+				"path": "./themes/RubyBlue.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "95d648bf-68e1-4ba2-b083-23d258bfb125",
+		"publisherId": "cecf1039-5c9d-449f-b3e4-23d317b3f57d",
+		"publisherDisplayName": "hirofumii"
+	}
+}

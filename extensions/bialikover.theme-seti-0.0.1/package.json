@@ -1,0 +1,22 @@
+{
+	"name": "theme-seti",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"publisher": "bialikover",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Seti",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Seti.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "85816f6c-d8b2-4fba-b57e-09678ba67b64",
+		"publisherId": "ed4f2e96-1030-4e01-a9bc-574046217e37",
+		"publisherDisplayName": "Adan G. Galvan Gonzalez"
+	}
+}
