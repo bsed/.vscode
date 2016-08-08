@@ -1,0 +1,123 @@
+{
+    "Main": {
+        "prefix": "main",
+        "body": [
+            "module Main (main) where",
+            "",
+            "",
+            "main :: IO ()",
+            "main = ${0:return ()}",
+            ""
+        ]
+    },
+    "Module": {
+        "prefix": "module",
+        "body": [
+            "module ${module:MyModule} (",
+            "\t${export:myFunction}",
+            "\t) where"
+        ]
+    },
+    "Lambda (trigger does not work)": {
+        "prefix": "lambda",
+        "body": "\\${inputs} -> ${body}"
+    },
+    "Case": {
+        "prefix": "case",
+        "body": [
+            "case ${var} of",
+            "\t${alt:Just a} -> ${body}",
+            "\t${otehrwise:_} -> ${remaining}"
+        ]
+    },
+    "Typeclass": {
+        "prefix": "class",
+        "body": [
+            "class ${name:MyClass} where",
+            "\t${fname:myFunction} :: ${type:String}"
+        ]
+    },
+    "Instance": {
+        "prefix": "instance",
+        "body": [
+            "instance ${class:Show} ${type:String} where",
+            "\t${function:function} = ${impl:id}"
+        ]
+    },
+    "For": {
+        "prefix": "for",
+        "body": [
+            "for ${coll} $ \\\\${element:element} ->",
+            "\t${element:element}"
+        ]
+    },
+    "For_": {
+        "prefix": "for_",
+        "body": [
+            "for_ ${coll} $ \\\\${element:element} ->",
+            "\t${element:element}"
+        ]
+    },
+    "Do": {
+        "prefix": "do",
+        "body": [
+            "do",
+            "\t${body:return value}"
+        ]
+    },
+    "Type Alias": {
+        "prefix": "type",
+        "body": [
+            "type ${t1:MyType} = ${t2:Original}"
+        ]
+    },
+    "Type Declaration": {
+        "prefix": "data",
+        "body": [
+            "data ${name:MyType} = ${alt1:Record {}} | ${alt2:Algebraic}"
+        ]
+    },
+    "Newtype declaration": {
+        "prefix": "newtype",
+        "body": [
+            "newtype ${name:MyType} = ${name:MyType} { un${name:MyType} :: ${original:String} }"
+        ]
+    },
+    "If": {
+        "prefix": "if",
+        "body": [
+            "if ${cond}",
+            "\tthen ${branch1}",
+            "\telse ${branch2}"
+        ]
+    },
+    "Pragma": {
+        "prefix": "prag",
+        "body": [
+            "{-# $1 #-}"
+        ]
+    },
+    "Language Pragma": {
+        "prefix": "language",
+        "body": [
+            "{-# LANGUAGE $1 #-}"
+        ]
+    },
+    "Let": {
+        "prefix": "let",
+        "body": [
+            "let",
+            "\t${name} = ${value}",
+            "in",
+            "\t${expr}"
+        ]
+    },
+    "Function": {
+        "prefix": "fun",
+        "body": [
+            "${name} :: ${type1:Int} -> ${type2:Int}",
+            "${name} ${val} = ${expr1}",
+            "${name} ${val2:_} = ${expr2}"
+        ]
+    }
+}
