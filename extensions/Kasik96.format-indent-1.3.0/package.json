@@ -1,0 +1,39 @@
+{
+	"name": "format-indent",
+	"displayName": "PHP Code Format",
+	"description": "Code format for PHP Language",
+	"version": "1.3.0",
+	"publisher": "Kasik96",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"icon": "media/icon.png",
+	"galleryBanner": {
+		"color": "#0000FF",
+		"theme": "dark"
+	},
+	"bugs": {
+		"url": "https://github.com/kasik96/VSCode-PHP-Format/issues",
+		"email": "kasemartin@icloud.com"
+	},
+	"homepage": "https://github.com/kasik96/VSCode-PHP-Format",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kasik96/VSCode-PHP-Format"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:php"
+	],
+	"main": "./extension",
+	"devDependencies": {
+		"vscode": "0.10.x"
+	},
+	"__metadata": {
+		"id": "949eb1e5-b41c-413f-99da-6b57cdaed1b4",
+		"publisherId": "d0da30bb-6c9f-4482-8b47-080dc94e6008",
+		"publisherDisplayName": "Martin Kase"
+	}
+}
