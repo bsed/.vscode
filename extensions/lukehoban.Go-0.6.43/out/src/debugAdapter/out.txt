@@ -1,0 +1,37 @@
+[Wed Mar 09 2016 15:35:47] [ERROR] waiting for debug protocol on port 4711
+[Wed Mar 09 2016 15:35:49] [ERROR] >> accepted connection from client
+[Wed Mar 09 2016 15:35:52] [WARN]  InitializeRequest
+[Wed Mar 09 2016 15:35:52] [WARN]  InitializeResponse
+[Wed Mar 09 2016 15:35:52] [WARN]  InitializeEvent
+[Wed Mar 09 2016 15:35:52] [WARN]  Using dlv at:  /Users/lukeh/dd/go/bin/dlv
+[Wed Mar 09 2016 15:35:52] [WARN]  ExceptionBreakPointsRequest
+[Wed Mar 09 2016 15:35:52] [WARN]  ExceptionBreakPointsResponse
+[Wed Mar 09 2016 15:35:53] [WARN]  ContinueRequest
+[Wed Mar 09 2016 15:35:53] [WARN]  ContinueResponse
+[Wed Mar 09 2016 15:35:53] [WARN]  { Threads: null, exited: true, exitStatus: 0 }
+[Wed Mar 09 2016 15:35:53] [WARN]  TerminatedEvent
+[Wed Mar 09 2016 15:35:53] [WARN]  DisconnectRequest
+[Wed Mar 09 2016 15:35:53] [ERROR] process.exit ignored in server mode
+[Wed Mar 09 2016 15:35:53] [WARN]  DisconnectResponse
+[Wed Mar 09 2016 15:35:53] [ERROR] Process exiting with code: 2
+[Wed Mar 09 2016 15:35:53] [ERROR] >> client connection closed
+
+[Wed Mar 09 2016 15:35:53] [ERROR] process.exit ignored in server mode
+[Wed Mar 09 2016 15:39:45] [ERROR] >> accepted connection from client
+[Wed Mar 09 2016 15:39:52] [WARN]  InitializeRequest
+[Wed Mar 09 2016 15:39:52] [WARN]  InitializeResponse
+[Wed Mar 09 2016 15:39:52] [WARN]  InitializeEvent
+[Wed Mar 09 2016 15:39:52] [WARN]  Using dlv at:  /Users/lukeh/dd/go/bin/dlv
+[Wed Mar 09 2016 15:39:52] [WARN]  ExceptionBreakPointsRequest
+[Wed Mar 09 2016 15:39:52] [WARN]  ExceptionBreakPointsResponse
+[Wed Mar 09 2016 15:39:53] [WARN]  ContinueRequest
+[Wed Mar 09 2016 15:39:53] [WARN]  ContinueResponse
+[Wed Mar 09 2016 15:39:53] [WARN]  { Threads: null, exited: true, exitStatus: 0 }
+[Wed Mar 09 2016 15:39:53] [WARN]  TerminatedEvent
+[Wed Mar 09 2016 15:39:53] [WARN]  DisconnectRequest
+[Wed Mar 09 2016 15:39:53] [ERROR] process.exit ignored in server mode
+[Wed Mar 09 2016 15:39:53] [WARN]  DisconnectResponse
+[Wed Mar 09 2016 15:39:53] [ERROR] Process exiting with code: 2
+[Wed Mar 09 2016 15:39:53] [ERROR] >> client connection closed
+
+[Wed Mar 09 2016 15:39:53] [ERROR] process.exit ignored in server mode
