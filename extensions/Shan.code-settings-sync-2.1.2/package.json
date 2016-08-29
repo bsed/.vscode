@@ -1,0 +1,118 @@
+{
+	"name": "code-settings-sync",
+	"displayName": "Visual Studio Code Settings Sync",
+	"description": "Synchronize Settings, Snippets, launch, keybindings files and extensions Across Multiple Machines using Github GIST.",
+	"version": "2.1.2",
+	"icon": "images/cloud.png",
+	"publisher": "Shan",
+	"author": {
+		"name": "Shan Khan",
+		"url": "http://shanalikhan.github.io"
+	},
+	"galleryBanner": {
+		"color": "#3B4859",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shanalikhan/code-settings-sync.git"
+	},
+	"bugs": {
+		"url": "https://github.com/shanalikhan/code-settings-sync/issues",
+		"email": "shanalikhan@hotmail.com"
+	},
+	"engines": {
+		"vscode": "^1.3.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*",
+		"onCommand:extension.updateSettings",
+		"onCommand:extension.downloadSettings",
+		"onCommand:extension.resetSettings",
+		"onCommand:extension.releaseNotes",
+		"onCommand:extension.openSettings",
+		"onCommand:extension.HowSettings",
+		"onCommand:extension.OpenIssue",
+		"onCommand:extension.autoSync",
+		"onCommand:extension.summary"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.openSettings",
+				"title": "Sync : Open Settings"
+			},
+			{
+				"command": "extension.OpenIssue",
+				"title": "Sync : Open Issue"
+			},
+			{
+				"command": "extension.HowSettings",
+				"title": "Sync : How To Configure"
+			},
+			{
+				"command": "extension.downloadSettings",
+				"title": "Sync : Download Settings"
+			},
+			{
+				"command": "extension.updateSettings",
+				"title": "Sync : Update / Upload Settings"
+			},
+			{
+				"command": "extension.resetSettings",
+				"title": "Sync : Reset Extension Settings"
+			},
+			{
+				"command": "extension.releaseNotes",
+				"title": "Sync : Release Notes"
+			},
+			{
+				"command": "extension.autoSync",
+				"title": "Sync : Toggle Auto Download On Startup"
+			},
+			{
+				"command": "extension.summary",
+				"title": "Sync : Toggle Show Summary On Upload / Download"
+			}
+		],
+		"keybindings": [
+			{
+				"key": "alt+shift+u",
+				"command": "extension.updateSettings",
+				"when": "editorTextFocus"
+			},
+			{
+				"key": "alt+shift+d",
+				"command": "extension.downloadSettings",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"typescript": "^1.6.2",
+		"vscode": "^0.11.x"
+	},
+	"dependencies": {
+		"fs": "^0.0.2",
+		"github4": "^1.1.1",
+		"open": "^0.0.5",
+		"temp": "^0.8.3",
+		"adm-zip": "^0.4.7",
+		"ncp": "^2.0.0",
+		"rimraf": "^2.5.4"
+	},
+	"__metadata": {
+		"id": "e337c67b-55c2-4fef-8949-eb260e7fb7fd",
+		"publisherId": "ac3a3342-db76-40ef-9277-4657632d3bfe",
+		"publisherDisplayName": "Shan Khan"
+	}
+}
