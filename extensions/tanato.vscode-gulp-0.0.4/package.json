@@ -1,79 +1,36 @@
 {
-	"__metadata": {
-		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
-		"id": "345e44ca-5c0e-40f7-b15f-8cd6bc650517",
-		"publisherId": "e4452f0e-1c84-494d-b206-9239f3722930",
-		"publisherDisplayName": "tanato",
-		"installCount": 3297,
-		"versions": [
-			{
-				"version": "0.0.4",
-				"date": "2015-11-27T16:49:15.357Z",
-				"downloadHeaders": {
-					"X-Market-Client-Id": "VSCode",
-					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
-				},
-				"downloadUrl": "https://tanato.gallery.vsassets.io/_apis/public/gallery/publisher/tanato/extension/vscode-gulp/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
-				"manifestUrl": "https://tanato.gallery.vsassets.io/_apis/public/gallery/publisher/tanato/extension/vscode-gulp/0.0.4/assetbyname/Microsoft.VisualStudio.Code.Manifest"
-			},
-			{
-				"version": "0.0.3",
-				"date": "2015-11-26T20:17:37.257Z",
-				"downloadHeaders": {
-					"X-Market-Client-Id": "VSCode",
-					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
-				},
-				"downloadUrl": "https://tanato.gallery.vsassets.io/_apis/public/gallery/publisher/tanato/extension/vscode-gulp/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
-				"manifestUrl": "https://tanato.gallery.vsassets.io/_apis/public/gallery/publisher/tanato/extension/vscode-gulp/0.0.3/assetbyname/Microsoft.VisualStudio.Code.Manifest"
-			},
-			{
-				"version": "0.0.2",
-				"date": "2015-11-26T20:09:29.61Z",
-				"downloadHeaders": {
-					"X-Market-Client-Id": "VSCode",
-					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
-				},
-				"downloadUrl": "https://tanato.gallery.vsassets.io/_apis/public/gallery/publisher/tanato/extension/vscode-gulp/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
-				"manifestUrl": "https://tanato.gallery.vsassets.io/_apis/public/gallery/publisher/tanato/extension/vscode-gulp/0.0.2/assetbyname/Microsoft.VisualStudio.Code.Manifest"
-			},
-			{
-				"version": "0.0.1",
-				"date": "2015-11-26T19:28:41.553Z",
-				"downloadHeaders": {
-					"X-Market-Client-Id": "VSCode",
-					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
-				},
-				"downloadUrl": "https://tanato.gallery.vsassets.io/_apis/public/gallery/publisher/tanato/extension/vscode-gulp/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
-				"manifestUrl": "https://tanato.gallery.vsassets.io/_apis/public/gallery/publisher/tanato/extension/vscode-gulp/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
-			}
-		]
-	},
-	"name": "vscode-gulp",
-	"displayName": "Gulp Snippets",
-	"description": "Gulp JS Snippets for Visual Studio Code",
-	"version": "0.0.4",
-	"publisher": "tanato",
-	"icon": "images/gulplogo.png",
-	"galleryBanner": {
-		"color": "#cf4646",
-		"theme": "dark"
-	},
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Tanato/vscode-gulp"
-	},
-	"contributes": {
-		"snippets": [
-			{
-				"language": "javascript",
-				"path": "./snippets/snippets.json"
-			}
-		]
-	}
+ "name": "vscode-gulp",
+ "displayName": "Gulp Snippets",
+ "description": "Gulp JS Snippets for Visual Studio Code",
+ "version": "0.0.4",
+ "publisher": "tanato",
+ "icon": "images/gulplogo.png",
+ "galleryBanner": {
+  "color": "#cf4646",
+  "theme": "dark"
+ },
+ "engines": {
+  "vscode": "^0.10.1"
+ },
+ "categories": [
+  "Snippets"
+ ],
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/Tanato/vscode-gulp"
+ },
+ "contributes": {
+  "snippets": [
+   {
+    "language": "javascript",
+    "path": "./snippets/snippets.json"
+   }
+  ]
+ },
+ "__metadata": {
+  "galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+  "id": "345e44ca-5c0e-40f7-b15f-8cd6bc650517",
+  "publisherId": "e4452f0e-1c84-494d-b206-9239f3722930",
+  "publisherDisplayName": "tanato"
+ }
 }

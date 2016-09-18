@@ -1,140 +1,107 @@
 {
-	"__metadata": {
-		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
-		"id": "dc696ff7-0c78-4470-9d47-9ddc28cc35a0",
-		"publisherId": "f9dbfd7c-f9a1-434c-9971-648ad2e23f96",
-		"publisherDisplayName": "Compulim",
-		"installCount": 144,
-		"versions": [
-			{
-				"version": "0.1.1",
-				"date": "2016-04-26T18:24:25.293Z",
-				"downloadHeaders": {
-					"X-Market-Client-Id": "VSCode",
-					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
-				},
-				"downloadUrl": "https://compulim.gallery.vsassets.io/_apis/public/gallery/publisher/Compulim/extension/vscode-mocha/0.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
-				"manifestUrl": "https://compulim.gallery.vsassets.io/_apis/public/gallery/publisher/Compulim/extension/vscode-mocha/0.1.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
-			},
-			{
-				"version": "0.1.0",
-				"date": "2016-04-26T15:41:46.663Z",
-				"downloadHeaders": {
-					"X-Market-Client-Id": "VSCode",
-					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
-				},
-				"downloadUrl": "https://compulim.gallery.vsassets.io/_apis/public/gallery/publisher/Compulim/extension/vscode-mocha/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
-				"manifestUrl": "https://compulim.gallery.vsassets.io/_apis/public/gallery/publisher/Compulim/extension/vscode-mocha/0.1.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
-			},
-			{
-				"version": "0.0.1",
-				"date": "2016-04-24T20:18:21.237Z",
-				"downloadHeaders": {
-					"X-Market-Client-Id": "VSCode",
-					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
-				},
-				"downloadUrl": "https://compulim.gallery.vsassets.io/_apis/public/gallery/publisher/Compulim/extension/vscode-mocha/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
-				"manifestUrl": "https://compulim.gallery.vsassets.io/_apis/public/gallery/publisher/Compulim/extension/vscode-mocha/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
-			}
-		]
-	},
-	"name": "vscode-mocha",
-	"displayName": "Mocha",
-	"description": "Runs Mocha tests",
-	"version": "0.1.1",
-	"publisher": "Compulim",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"icon": "icon.png",
-	"galleryBanner.color": "#8A6343",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/compulim/vscode-mocha.git"
-	},
-	"bugs": "https://github.com/compulim/vscode-mocha/issues/",
-	"homepage": "https://github.com/compulim/vscode-mocha/blob/master/README.md",
-	"keywords": [
-		"assert",
-		"bdd",
-		"mocha",
-		"tdd",
-		"test",
-		"testing",
-		"unit test",
-		"unittest"
-	],
-	"categories": [
-		"Other"
-	],
-	"activationEvents": [
-		"onCommand:mocha.runAllTests",
-		"onCommand:mocha.selectAndRunTest",
-		"onCommand:mocha.runFailedTests",
-		"onCommand:mocha.runTestsByPattern",
-		"onCommand:mocha.runLastSetAgain"
-	],
-	"main": "./extension",
-	"contributes": {
-		"commands": [
-			{
-				"command": "mocha.runAllTests",
-				"title": "Mocha: Run all tests"
-			},
-			{
-				"command": "mocha.selectAndRunTest",
-				"title": "Mocha: Select and run a test"
-			},
-			{
-				"command": "mocha.runFailedTests",
-				"title": "Mocha: Run failed tests"
-			},
-			{
-				"command": "mocha.runTestsByPattern",
-				"title": "Mocha: Run tests matching a pattern"
-			},
-			{
-				"command": "mocha.runLastSetAgain",
-				"title": "Mocha: Run last set again"
-			}
-		],
-		"configuration": {
-			"type": "object",
-			"title": "Mocha options",
-			"properties": {
-				"mocha.options": {
-					"default": {},
-					"description": "Mocha: Options to run Mocha"
-				},
-				"mocha.files.glob": {
-					"default": "test/**/*.js",
-					"description": "Mocha: Glob to search for test files",
-					"type": "string"
-				},
-				"mocha.files.ignore": {
-					"default": [
-						"**/.git/**/*",
-						"**/node_modules/**/*"
-					],
-					"description": "Mocha: Globs to ignore when searching for test files",
-					"type": [
-						"string"
-					]
-				},
-				"mocha.env": {
-					"default": {},
-					"description": "Mocha: Environment variables to run your tests"
-				}
-			}
-		}
-	},
-	"devDependencies": {
-		"vscode": "0.11.x"
-	},
-	"dependencies": {
-		"bluebird": "^3.3.5",
-		"escape-regexp": "0.0.1",
-		"glob": "^7.0.3",
-		"mocha": "^2.4.5"
-	}
+ "name": "vscode-mocha",
+ "displayName": "Mocha",
+ "description": "Runs Mocha tests",
+ "version": "0.1.1",
+ "publisher": "Compulim",
+ "engines": {
+  "vscode": "^0.10.1"
+ },
+ "icon": "icon.png",
+ "galleryBanner.color": "#8A6343",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/compulim/vscode-mocha.git"
+ },
+ "bugs": "https://github.com/compulim/vscode-mocha/issues/",
+ "homepage": "https://github.com/compulim/vscode-mocha/blob/master/README.md",
+ "keywords": [
+  "assert",
+  "bdd",
+  "mocha",
+  "tdd",
+  "test",
+  "testing",
+  "unit test",
+  "unittest"
+ ],
+ "categories": [
+  "Other"
+ ],
+ "activationEvents": [
+  "onCommand:mocha.runAllTests",
+  "onCommand:mocha.selectAndRunTest",
+  "onCommand:mocha.runFailedTests",
+  "onCommand:mocha.runTestsByPattern",
+  "onCommand:mocha.runLastSetAgain"
+ ],
+ "main": "./extension",
+ "contributes": {
+  "commands": [
+   {
+    "command": "mocha.runAllTests",
+    "title": "Mocha: Run all tests"
+   },
+   {
+    "command": "mocha.selectAndRunTest",
+    "title": "Mocha: Select and run a test"
+   },
+   {
+    "command": "mocha.runFailedTests",
+    "title": "Mocha: Run failed tests"
+   },
+   {
+    "command": "mocha.runTestsByPattern",
+    "title": "Mocha: Run tests matching a pattern"
+   },
+   {
+    "command": "mocha.runLastSetAgain",
+    "title": "Mocha: Run last set again"
+   }
+  ],
+  "configuration": {
+   "type": "object",
+   "title": "Mocha options",
+   "properties": {
+    "mocha.options": {
+     "default": {},
+     "description": "Mocha: Options to run Mocha"
+    },
+    "mocha.files.glob": {
+     "default": "test/**/*.js",
+     "description": "Mocha: Glob to search for test files",
+     "type": "string"
+    },
+    "mocha.files.ignore": {
+     "default": [
+      "**/.git/**/*",
+      "**/node_modules/**/*"
+     ],
+     "description": "Mocha: Globs to ignore when searching for test files",
+     "type": [
+      "string"
+     ]
+    },
+    "mocha.env": {
+     "default": {},
+     "description": "Mocha: Environment variables to run your tests"
+    }
+   }
+  }
+ },
+ "devDependencies": {
+  "vscode": "0.11.x"
+ },
+ "dependencies": {
+  "bluebird": "^3.3.5",
+  "escape-regexp": "0.0.1",
+  "glob": "^7.0.3",
+  "mocha": "^2.4.5"
+ },
+ "__metadata": {
+  "galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+  "id": "dc696ff7-0c78-4470-9d47-9ddc28cc35a0",
+  "publisherId": "f9dbfd7c-f9a1-434c-9971-648ad2e23f96",
+  "publisherDisplayName": "Compulim"
+ }
 }

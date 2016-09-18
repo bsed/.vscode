@@ -1,55 +1,41 @@
 {
-	"__metadata": {
-		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
-		"id": "08346798-e8e6-4a91-ab48-4bcbe927beb0",
-		"publisherId": "ebaa77e8-5f1e-4a48-9dda-2deacc9bd4db",
-		"publisherDisplayName": "TwentyChung",
-		"installCount": 732,
-		"versions": [
-			{
-				"version": "0.0.1",
-				"date": "2015-11-20T13:19:27.427Z",
-				"downloadHeaders": {
-					"X-Market-Client-Id": "VSCode 1.2.1",
-					"User-Agent": "VSCode 1.2.1",
-					"X-Market-User-Id": "331a927da09cc1783d60c0553d7ad3044df9edfbccaba32efd5f9949619db089"
-				},
-				"downloadUrl": "https://twentychung.gallery.vsassets.io/_apis/public/gallery/publisher/TwentyChung/extension/elixir/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
-				"manifestUrl": "https://twentychung.gallery.vsassets.io/_apis/public/gallery/publisher/TwentyChung/extension/elixir/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
-			}
-		]
-	},
-	"name": "elixir",
-	"description": "Elixir Language Support for Visual Studio Code",
-	"version": "0.0.1",
-	"publisher": "TwentyChung",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Languages"
-	],
-	"contributes": {
-		"languages": [
-			{
-				"id": "elixir",
-				"aliases": [
-					"Elixir",
-					"elixir"
-				],
-				"extensions": [
-					".ex",
-					".exs"
-				],
-				"configuration": "./elixir.configuration.json"
-			}
-		],
-		"grammars": [
-			{
-				"language": "elixir",
-				"scopeName": "source.elixir",
-				"path": "./syntaxes/elixir.tmLanguage"
-			}
-		]
-	}
+ "name": "elixir",
+ "description": "Elixir Language Support for Visual Studio Code",
+ "version": "0.0.1",
+ "publisher": "TwentyChung",
+ "engines": {
+  "vscode": "^0.10.1"
+ },
+ "categories": [
+  "Languages"
+ ],
+ "contributes": {
+  "languages": [
+   {
+    "id": "elixir",
+    "aliases": [
+     "Elixir",
+     "elixir"
+    ],
+    "extensions": [
+     ".ex",
+     ".exs"
+    ],
+    "configuration": "./elixir.configuration.json"
+   }
+  ],
+  "grammars": [
+   {
+    "language": "elixir",
+    "scopeName": "source.elixir",
+    "path": "./syntaxes/elixir.tmLanguage"
+   }
+  ]
+ },
+ "__metadata": {
+  "galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+  "id": "08346798-e8e6-4a91-ab48-4bcbe927beb0",
+  "publisherId": "ebaa77e8-5f1e-4a48-9dda-2deacc9bd4db",
+  "publisherDisplayName": "TwentyChung"
+ }
 }
