@@ -1,0 +1,57 @@
+{
+	"name": "vsc-rustfmt",
+	"description": "Allows you to run rustfmt from VS Code",
+	"version": "0.1.0",
+	"publisher": "Connorcpu",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"activationEvents": [
+		"onCommand:rustfmt.fmt",
+		"onLanguage:rust"
+	],
+	"extensionDependencies": [
+		"vscode.rust"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "rustfmt.fmt",
+				"title": "Format with rustfmt"
+			}
+		]
+	},
+	"configuration": {
+		"type": "object",
+		"title": "Rustfmt configuration",
+		"properties": {
+			"rustfmt.bin": {
+				"type": "string",
+				"default": "",
+				"description": "The path to the rustfmt binary"
+			},
+			"rustfmt.formatOnSave": {
+				"type": "boolean",
+				"default": true,
+				"description": "Whether to format Rust code on save"
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+	},
+	"devDependencies": {
+		"typescript": "^1.6.2",
+		"vscode": "0.10.x"
+	},
+	"__metadata": {
+		"id": "ed78123a-126a-4837-a2b5-f8696522183f",
+		"publisherId": "ee3203a7-ef98-4320-b7a8-2b9686463a51",
+		"publisherDisplayName": "Connorcpu"
+	}
+}
