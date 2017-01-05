@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/firefox/actorProxy/objectGrip.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">src/firefox/actorProxy</a> objectGrip.ts
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">94.87% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>37/39</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">78.57% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>11/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>8/8</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">94.74% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>36/38</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85</td><td class="line-coverage quiet"><span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">282x</span>
+<span class="cline-any cline-yes">282x</span>
+<span class="cline-any cline-yes">282x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">282x</span>
+<span class="cline-any cline-yes">282x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1064x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">501x</span>
+<span class="cline-any cline-yes">233x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">268x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">268x</span>
+<span class="cline-any cline-yes">268x</span>
+<span class="cline-any cline-yes">268x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">268x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">75x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">275x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">268x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">264x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">264x</span>
+<span class="cline-any cline-yes">264x</span>
+<span class="cline-any cline-yes">264x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Log } from '../../util/log';
+import { EventEmitter } from 'events';
+import { DebugConnection } from '../connection';
+import { PendingRequests, PendingRequest } from './pendingRequests';
+import { ActorProxy } from './interface';
+&nbsp;
+let log = Log.create('ObjectGripActorProxy');
+&nbsp;
+export class ObjectGripActorProxy implements ActorProxy {
+&nbsp;
+	private pendingThreadGripRequest: PendingRequest&lt;void&gt; | undefined = undefined;
+	private threadGripPromise: Promise&lt;void&gt; | undefined = undefined;
+ 	private pendingPrototypeAndPropertiesRequests = new PendingRequests&lt;FirefoxDebugProtocol.PrototypeAndPropertiesResponse&gt;();
+&nbsp;
+	constructor(private grip: FirefoxDebugProtocol.ObjectGrip, private connection: DebugConnection) {
+		this.connection.register(this);
+	}
+&nbsp;
+	public get name() {
+		return this.grip.actor;
+	}
+&nbsp;
+	public extendLifetime(): Promise&lt;void&gt; {
+		if (this.threadGripPromise) {
+			return this.threadGripPromise;
+		}
+&nbsp;
+ 		log.debug(`Extending lifetime of ${this.name}`);
+&nbsp;
+		this.threadGripPromise = new Promise&lt;void&gt;((resolve, reject) =&gt; {
+			this.pendingThreadGripRequest = { resolve, reject };
+			this.connection.sendRequest({ to: this.name, type: 'threadGrip' });
+		});
+		return this.threadGripPromise;
+	}
+&nbsp;
+	public fetchPrototypeAndProperties(): Promise&lt;FirefoxDebugProtocol.PrototypeAndPropertiesResponse&gt; {
+&nbsp;
+		log.debug(`Fetching prototype and properties from ${this.name}`);
+&nbsp;
+		return new Promise&lt;FirefoxDebugProtocol.PrototypeAndPropertiesResponse&gt;((resolve, reject) =&gt; {
+			this.pendingPrototypeAndPropertiesRequests.enqueue({ resolve, reject });
+			this.connection.sendRequest({ to: this.name, type: 'prototypeAndProperties' });
+		});
+	}
+&nbsp;
+	public dispose(): void {
+		this.connection.unregister(this);
+	}
+&nbsp;
+	public receiveResponse(response: FirefoxDebugProtocol.Response): void {
+&nbsp;
+		if ((response['prototype'] !== undefined) &amp;&amp; (response['ownProperties'] !== undefined)) {
+&nbsp;
+			log.debug(`Prototype and properties fetched from ${this.name}`);
+			this.pendingPrototypeAndPropertiesRequests.resolveOne(&lt;FirefoxDebugProtocol.PrototypeAndPropertiesResponse&gt;response);
+&nbsp;
+		} else if (Object.keys(response).length === 1) {
+&nbsp;
+			log.debug('Received response to threadGrip request');
+&nbsp;
+			<span class="missing-if-branch" title="else path not taken" >E</span>if (this.pendingThreadGripRequest) {
+				this.pendingThreadGripRequest.resolve(undefined);
+				this.pendingThreadGripRequest = undefined;
+			} else {
+<span class="cstat-no" title="statement not covered" >				log.warn('Received threadGrip response without pending request');</span>
+			}
+&nbsp;
+		} else <span class="missing-if-branch" title="else path not taken" >E</span>if (response['error'] === 'noSuchActor') {
+&nbsp;
+			log.warn(`No such actor ${this.grip.actor} - you will not be able to inspect this value; this is probably due to Firefox bug #1249962`);
+			this.pendingPrototypeAndPropertiesRequests.rejectAll('No such actor');
+			<span class="missing-if-branch" title="else path not taken" >E</span>if (this.pendingThreadGripRequest) {
+				this.pendingThreadGripRequest.resolve(undefined);
+				this.pendingThreadGripRequest = undefined;
+			}
+&nbsp;
+		} else {
+&nbsp;
+<span class="cstat-no" title="statement not covered" >			log.warn("Unknown message from ObjectGripActor: " + JSON.stringify(response));</span>
+&nbsp;
+		}
+	}
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Thu Dec 15 2016 19:00:31 GMT+0100 (CET)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>
