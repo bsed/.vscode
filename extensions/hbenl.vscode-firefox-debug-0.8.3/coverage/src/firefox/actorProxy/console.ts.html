@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/firefox/actorProxy/console.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">src/firefox/actorProxy</a> console.ts
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">87.04% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>47/54</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">85.71% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>12/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">76.92% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>10/13</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">86.79% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>46/53</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135</td><td class="line-coverage quiet"><span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">41x</span>
+<span class="cline-any cline-yes">41x</span>
+<span class="cline-any cline-yes">41x</span>
+<span class="cline-any cline-yes">41x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">41x</span>
+<span class="cline-any cline-yes">41x</span>
+<span class="cline-any cline-yes">41x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">164x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">39x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">39x</span>
+<span class="cline-any cline-yes">39x</span>
+<span class="cline-any cline-yes">39x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">42x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">42x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">42x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">42x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">42x</span>
+<span class="cline-any cline-yes">42x</span>
+<span class="cline-any cline-yes">42x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">161x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">126x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">126x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">38x</span>
+<span class="cline-any cline-yes">38x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">88x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">84x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">40x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">44x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">42x</span>
+<span class="cline-any cline-yes">42x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">39x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">39x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Log } from '../../util/log';
+import { EventEmitter } from 'events';
+import { DebugConnection } from '../connection';
+import { PendingRequests, PendingRequest } from './pendingRequests';
+import { ActorProxy } from './interface';
+&nbsp;
+let log = Log.create('ConsoleActorProxy');
+&nbsp;
+export class ConsoleActorProxy extends EventEmitter implements ActorProxy {
+&nbsp;
+	private static listenFor = ['PageError', 'ConsoleAPI'];
+&nbsp;
+	private pendingStartListenersRequests = new PendingRequests&lt;void&gt;();
+	private pendingStopListenersRequests = new PendingRequests&lt;void&gt;();
+	private pendingResultIDRequests = new PendingRequests&lt;number&gt;();
+	private pendingEvaluateRequests = new Map&lt;number, PendingRequest&lt;FirefoxDebugProtocol.Grip&gt;&gt;();
+&nbsp;
+	constructor(private _name: string, private connection: DebugConnection) {
+		super();
+		this.connection.register(this);
+	}
+&nbsp;
+	public get name() {
+		return this._name;
+	}
+&nbsp;
+	public startListeners(): Promise&lt;void&gt; {
+		log.debug('Starting console listeners');
+&nbsp;
+		return new Promise&lt;void&gt;((resolve, reject) =&gt; {
+			this.pendingStartListenersRequests.enqueue({ resolve, reject });
+			this.connection.sendRequest({
+				to: this.name, type: 'startListeners',
+				listeners: ConsoleActorProxy.listenFor
+			});
+		});
+	}
+&nbsp;
+	public <span class="fstat-no" title="function not covered" >stopListeners</span>(): Promise&lt;void&gt; {
+<span class="cstat-no" title="statement not covered" >		log.debug('Stopping console listeners');</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		return new Promise&lt;void&gt;(<span class="fstat-no" title="function not covered" >(r</span>esolve, reject) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >			this.pendingStopListenersRequests.enqueue({ resolve, reject });</span>
+<span class="cstat-no" title="statement not covered" >			this.connection.sendRequest({</span>
+				to: this.name, type: 'stopListeners',
+				listeners: ConsoleActorProxy.listenFor
+			});
+		});
+	}
+&nbsp;
+	/**
+	 * Evaluate the given expression. This will create 2 PendingRequest objects because we expect
+	 * 2 answers: the first answer gives us a resultID for the evaluation result. The second answer
+	 * gives us the actual evaluation result.
+	 */
+	public evaluate(expr: string, frameActorName?: string): Promise&lt;FirefoxDebugProtocol.Grip&gt; {
+		log.debug(`Evaluating '${expr}' on console ${this.name}`);
+&nbsp;
+		return new Promise&lt;FirefoxDebugProtocol.Grip&gt;((resolveEvaluate, rejectEvaluate) =&gt; {
+&nbsp;
+			// we don't use a promise for the pendingResultIDRequest because we need the
+			// pendingEvaluateRequest to be enqueued *immediately* after receiving the resultID
+			// message (and a promise doesn't call its callbacks immediately after being resolved,
+			// but rather schedules them to be called later)
+			this.pendingResultIDRequests.enqueue({
+				resolve: (resultID) =&gt; {
+					this.pendingEvaluateRequests.set(resultID, { 
+						resolve: resolveEvaluate, reject: rejectEvaluate
+					});
+				},
+				reject: <span class="fstat-no" title="function not covered" >() =&gt; {</span>}
+			});
+&nbsp;
+			let escapedExpression = expr.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+			let tryExpression = `eval("try{${escapedExpression}}catch(e){e.name+':'+e.message}")`;
+			this.connection.sendRequest({
+				to: this.name, type: 'evaluateJSAsync',
+				text: tryExpression, frameActor: frameActorName
+			});
+		})
+	}
+&nbsp;
+	public receiveResponse(response: FirefoxDebugProtocol.Response): void {
+&nbsp;
+		if (response['startedListeners']) {
+&nbsp;
+			log.debug('Listeners started');
+			this.pendingStartListenersRequests.resolveOne(undefined);
+&nbsp;
+		} else <span class="missing-if-branch" title="if path not taken" >I</span>if (response['stoppedListeners']) {
+&nbsp;
+<span class="cstat-no" title="statement not covered" >			log.debug('Listeners stopped');</span>
+<span class="cstat-no" title="statement not covered" >			this.pendingStartListenersRequests.resolveOne(undefined);</span>
+&nbsp;
+		} else if (response['type'] === 'consoleAPICall') {
+&nbsp;
+			log.debug(`Received ConsoleAPI message`);
+			this.emit('consoleAPI', (&lt;FirefoxDebugProtocol.ConsoleAPICallResponse&gt;response).message);
+&nbsp;
+		} else if (response['type'] === 'pageError') {
+&nbsp;
+			log.debug(`Received PageError message`);
+			this.emit('pageError', (&lt;FirefoxDebugProtocol.PageErrorResponse&gt;response).pageError);
+&nbsp;
+		} else if (response['type'] === 'evaluationResult') {
+&nbsp;
+			log.debug(`Received EvaluationResult message`);
+			let resultResponse = &lt;FirefoxDebugProtocol.EvaluationResultResponse&gt;response;
+			<span class="missing-if-branch" title="if path not taken" >I</span>if (!this.pendingEvaluateRequests.has(resultResponse.resultID)) {
+<span class="cstat-no" title="statement not covered" >				log.error('Received evaluationResult with unknown resultID');</span>
+			} else {
+				this.pendingEvaluateRequests.get(resultResponse.resultID)!.resolve(resultResponse.result);
+			}
+&nbsp;
+		} else if (response['resultID']) {
+&nbsp;
+			log.debug(`Received ResultID message`);
+			this.pendingResultIDRequests.resolveOne(response['resultID']);
+&nbsp;
+		} else {
+&nbsp;
+			log.warn("Unknown message from ConsoleActor: " + JSON.stringify(response));
+&nbsp;
+		}
+	}
+&nbsp;
+	public onConsoleAPICall(cb: (body: FirefoxDebugProtocol.ConsoleAPICallResponseBody) =&gt; void) {
+		this.on('consoleAPI', cb);
+	}
+&nbsp;
+	public onPageErrorCall(cb: (body: FirefoxDebugProtocol.PageErrorResponseBody) =&gt; void) {
+		this.on('pageError', cb);
+	}
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Thu Dec 15 2016 19:00:31 GMT+0100 (CET)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

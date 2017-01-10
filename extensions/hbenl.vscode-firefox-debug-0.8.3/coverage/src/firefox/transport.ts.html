@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/firefox/transport.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">src/firefox</a> transport.ts
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>38/38</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>6/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>6/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>37/37</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85</td><td class="line-coverage quiet"><span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">864x</span>
+<span class="cline-any cline-yes">864x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3565x</span>
+<span class="cline-any cline-yes">3565x</span>
+<span class="cline-any cline-yes">3565x</span>
+<span class="cline-any cline-yes">3565x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3565x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-yes">6636x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1784x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-yes">1781x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">903x</span>
+<span class="cline-any cline-yes">903x</span>
+<span class="cline-any cline-yes">903x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-yes">33x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { EventEmitter } from 'events';
+&nbsp;
+/**
+ * Implements the Remote Debugging Protocol Stream Transport
+ * as defined in https://wiki.mozilla.org/Remote_Debugging_Protocol_Stream_Transport
+ * Currently bulk data packets are unsupported and error handling is nonexistent
+ */
+export class DebugProtocolTransport extends EventEmitter {
+&nbsp;
+	private static initialBufferLength = 11; // must be large enough to receive a complete header
+	private buffer: Buffer;
+	private bufferedLength: number;
+	private receivingHeader: boolean;
+&nbsp;
+	constructor(private socket: SocketLike) {
+		super();
+&nbsp;
+		this.buffer = new Buffer(DebugProtocolTransport.initialBufferLength);
+		this.bufferedLength = 0;
+		this.receivingHeader = true;
+&nbsp;
+		this.socket.on('data', (chunk: Buffer) =&gt; {
+&nbsp;
+			let processedLength = 0;
+			while (processedLength &lt; chunk.length) {
+				// copy the maximum number of bytes possible into this.buffer
+				let copyLength = Math.min(chunk.length - processedLength, this.buffer.length - this.bufferedLength);
+				chunk.copy(this.buffer, this.bufferedLength, processedLength, processedLength + copyLength);
+				processedLength += copyLength;
+				this.bufferedLength += copyLength;
+&nbsp;
+				if (this.receivingHeader) {
+					// did we receive a complete header yet?
+					for (var i = 0; i &lt; this.bufferedLength; i++) {
+						if (this.buffer[i] === 58) {
+							// header is complete: parse it
+							let bodyLength = +this.buffer.toString('ascii', 0, i);
+							// create a buffer for the message body
+							let bodyBuffer = new Buffer(bodyLength);
+							// copy the start of the body from this.buffer
+							this.buffer.copy(bodyBuffer, 0, i + 1);
+							// replace this.buffer with bodyBuffer
+							this.buffer = bodyBuffer;
+							this.bufferedLength = this.bufferedLength - (i + 1);
+							this.receivingHeader = false;
+							break;
+						}
+					}
+				} else {
+					// did we receive the complete body yet?
+					if (this.bufferedLength === this.buffer.length) {
+						// body is complete: parse and emit it
+						let msgString = this.buffer.toString('utf8');
+						this.emit('message', JSON.parse(msgString));
+						// get ready to receive the next header
+						this.buffer = new Buffer(DebugProtocolTransport.initialBufferLength);
+						this.bufferedLength = 0;
+						this.receivingHeader = true;
+					}
+				}
+			}
+		});
+	}
+&nbsp;
+	public sendMessage(msg: any): void {
+		let msgBuf = new Buffer(JSON.stringify(msg), 'utf8');
+		this.socket.write(msgBuf.length + ':', 'ascii');
+		this.socket.write(msgBuf);
+	}
+	
+	public disconnect(): Promise&lt;void&gt; {
+		return new Promise&lt;void&gt;((resolve, reject) =&gt; {
+			this.socket.on('close', () =&gt; resolve());
+			this.socket.end();
+		});
+	}
+}
+&nbsp;
+export interface SocketLike {
+	on(event: string, listener: Function): EventEmitter;
+	write(buffer: Buffer): boolean;
+	write(str: string, encoding: string): boolean;
+	end(): void;
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Thu Dec 15 2016 19:00:31 GMT+0100 (CET)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>
