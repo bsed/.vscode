@@ -1,0 +1,25 @@
+diff --git a/src/extension.ts b/src/extension.ts
+index 228964c..7e04e88 100644
+--- a/src/extension.ts
++++ b/src/extension.ts
+@@ -94,10 +94,16 @@ export function activate(ctx: vscode.ExtensionContext): void {
+     // possible to get an error code of execute on windows.
+     var sh = win32 ? 'cmd' : '/bin/sh';
+     var fromInput = document.isDirty || document.isUntitled;
+-    var args = win32 ?
+-      (fromInput ? ['/s', '/c', action] : ['/s', '/c', action + ' ' + fileName])
+-    :
+-      (fromInput ? ['-c', action] : ['-c', action + ' ' + fileName]);
++
++    if (fromInput) {
++      if (action.indexOf('$(file)') != -1) {
++	      action = action.replace(/\$\(file\)/g, fileName);
++      } else {
++	      action += ' ' + fileName;
++      }
++    }
++
++    var args = win32 ? ['/s', '/c', action] : ['-c', action];
+     var opts = { cwd: cwd, detached: false };
+     if (win32) opts['windowsVerbatimArguments'] = true;
+     var child = cp.spawn(sh, args, opts);

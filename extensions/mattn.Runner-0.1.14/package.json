@@ -1,0 +1,97 @@
+{
+	"name": "Runner",
+	"version": "0.1.14",
+	"publisher": "mattn",
+	"description": "Run various scripts.",
+	"author": {
+		"name": "Yasuhiro Matsumoto (a.k.a mattn)"
+	},
+	"icon": "images/runner.png",
+	"categories": [
+		"Other",
+		"Languages"
+	],
+	"license": "MIT",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mattn/vscode-runner"
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"typescript": "^1.6.2",
+		"vscode": "0.10.x"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"main": "./out/extension",
+	"extensionDependencies": [],
+	"activationEvents": [
+		"onCommand:extension.runner.start"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.runner",
+				"title": "Run",
+				"description": "Run this file"
+			}
+		],
+		"keybindings": [
+			{
+				"key": "Ctrl+Shift+r",
+				"command": "extension.runner.start",
+				"when": "editorTextFocus"
+			},
+			{
+				"key": "Ctrl+Shift+t",
+				"command": "extension.runner.stop"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Runner configuration",
+			"properties": {
+				"runner.ignoreShebang": {
+					"type": "boolean",
+					"default": false,
+					"description": "Ignore shebang line"
+				},
+				"runner.clearPreviousOutput": {
+					"type": "boolean",
+					"default": true,
+					"description": "Clear Previous Outputs"
+				},
+				"runner.extensionMap": {
+					"type": "object",
+					"default": {},
+					"description": "Specify file extension as key, specify execuable as value"
+				},
+				"runner.languageMap": {
+					"type": "object",
+					"default": {},
+					"description": "Specify language name as key, specify execuable as value"
+				},
+				"runner.shebangMap": {
+					"type": "object",
+					"default": {},
+					"description": "Specify replacement of shebang line"
+				}
+			}
+		}
+	},
+	"readmeFilename": "README.md",
+	"bugs": {
+		"url": "https://github.com/mattn/vscode-runner/issues"
+	},
+	"__metadata": {
+		"id": "2795296d-027c-4cb5-aa96-9e7f4bd02958",
+		"publisherId": "939f645d-cc0e-45ac-8946-a6cfbde8f7b8",
+		"publisherDisplayName": "Yasuhiro Matsumoto"
+	}
+}
