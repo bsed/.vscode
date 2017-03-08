@@ -1,0 +1,38 @@
+{
+	"name": "font-awesome-codes-html",
+	"displayName": "Font-awesome codes for html (snippets)",
+	"description": "Just snippet for create font-awesome codes in html",
+	"version": "0.0.6",
+	"publisher": "medzhidov",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dslpp056193/font-awesome-codes-html"
+	},
+	"__metadata": {
+		"id": "720128b1-5c05-4fad-ac2d-3c1fa4acf4e2",
+		"publisherId": "82382d94-e6a9-44fb-bcc2-9544a42edd28",
+		"publisherDisplayName": "medzhidov"
+	}
+}

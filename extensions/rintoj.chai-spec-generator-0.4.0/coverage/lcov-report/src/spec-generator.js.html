@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/spec-generator.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">all files</a> / <a href="index.html">src/</a> spec-generator.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>105/105</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>88/88</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>13/13</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>105/105</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">167×</span>
+<span class="cline-any cline-yes">140×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">124×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">124×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">36×</span>
+<span class="cline-any cline-yes">12×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">24×</span>
+<span class="cline-any cline-yes">12×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">36×</span>
+<span class="cline-any cline-yes">12×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">24×</span>
+<span class="cline-any cline-yes">12×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">79×</span>
+<span class="cline-any cline-yes">27×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">52×</span>
+<span class="cline-any cline-yes">26×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">26×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">131×</span>
+<span class="cline-any cline-yes">45×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">86×</span>
+<span class="cline-any cline-yes">43×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">43×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-yes">3×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4×</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-yes">3×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4×</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">172×</span>
+<span class="cline-any cline-yes">60×</span>
+<span class="cline-any cline-yes">9×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51×</span>
+<span class="cline-any cline-yes">3×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">112×</span>
+<span class="cline-any cline-yes">56×</span>
+<span class="cline-any cline-yes">6×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">50×</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">56×</span>
+<span class="cline-any cline-yes">6×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">50×</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">12×</span>
+<span class="cline-any cline-yes">4×</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-yes">4×</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4×</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">205×</span>
+<span class="cline-any cline-yes">205×</span>
+<span class="cline-any cline-yes">205×</span>
+<span class="cline-any cline-yes">205×</span>
+<span class="cline-any cline-yes">24×</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">17×</span>
+<span class="cline-any cline-yes">12×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">181×</span>
+<span class="cline-any cline-yes">36×</span>
+<span class="cline-any cline-yes">36×</span>
+<span class="cline-any cline-yes">36×</span>
+<span class="cline-any cline-yes">63×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">36×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">145×</span>
+<span class="cline-any cline-yes">79×</span>
+<span class="cline-any cline-yes">79×</span>
+<span class="cline-any cline-yes">131×</span>
+<span class="cline-any cline-yes">131×</span>
+<span class="cline-any cline-yes">131×</span>
+<span class="cline-any cline-yes">131×</span>
+<span class="cline-any cline-yes">9×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">122×</span>
+<span class="cline-any cline-yes">9×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">113×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">131×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">66×</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">59×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">181×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">"use strict";
+function newLine(specs) {
+    if (specs.slice(-1)[0] !== '') {
+        specs.push('');
+    }
+}
+function generateSpec(target, options) {
+    options = Object.assign({
+        variableName: 'result',
+        specs: [],
+        quote: '\'',
+        semicolon: true,
+        special: false,
+        es6: true
+    }, options);
+    return generateSpecForChai(target, options);
+}
+exports.generateSpec = generateSpec;
+function generateArrayCheck(style, source, q, s) {
+    if (style === 'jasmine') {
+        return "expect(" + source + " instanceof Array).toBeTruthy()" + s;
+    }
+    else if (style === 'should') {
+        return source + ".should.be.a(" + q + "array" + q + ")" + s;
+    }
+    return "expect(" + source + ").be.a(" + q + "array" + q + ")" + s;
+}
+function generateArrayLengthCheck(style, source, length, q, s) {
+    if (style === 'jasmine') {
+        return "expect(" + source + ".length).toEqual(" + length + ")" + s;
+    }
+    else if (style === 'should') {
+        return source + ".should" + (length === 0 ? ".be.empty" + s : ".be.length(" + length + ")" + s);
+    }
+    return "expect(" + source + ")" + (length === 0 ? ".be.empty" + s : ".be.length(" + length + ")" + s);
+}
+function generateObjectCheck(style, source, q, s) {
+    if (style === 'jasmine') {
+        return "expect(typeof " + source + " === " + q + "object" + q + " &amp;&amp; !(" + source + " instanceof Array)).toBeTruthy()" + s;
+    }
+    else if (style === 'should') {
+        return source + ".should.be.a(" + q + "object" + q + ")" + s;
+    }
+    return "expect(" + source + ").be.a(" + q + "object" + q + ")" + s;
+}
+function generatePropertyCheck(style, source, value, q, s) {
+    if (style === 'jasmine') {
+        return "expect(Object.keys(" + source + ")).toContain(" + q + value + q + ")" + s;
+    }
+    else if (style === 'should') {
+        return source + ".should.have.property(" + q + value + q + ")" + s;
+    }
+    return "expect(" + source + ").have.property(" + q + value + q + ")" + s;
+}
+function generateDefinedCheck(style, source, value, q, s) {
+    if (style === 'jasmine') {
+        return "expect(" + source + ").toBeDefined()" + s;
+    }
+    else if (style === 'should') {
+        return source + ".should.be.exist" + s;
+    }
+    return "expect(" + source + ").be.exist" + s;
+}
+function generateUndefinedCheck(style, source, value, q, s) {
+    if (style === 'jasmine') {
+        return "expect(" + source + ").toBeUndefined()" + s;
+    }
+    else if (style === 'should') {
+        return source + ".should.be.undefined" + s;
+    }
+    return "expect(" + source + ").be.undefined" + s;
+}
+function generateEqualCheck(style, source, value, q, s) {
+    if (style === 'jasmine') {
+        if (value === null || typeof value === 'boolean') {
+            return "expect(" + source + ").toBe(" + value + ")" + s;
+        }
+        else if (typeof value === 'number' &amp;&amp; !isNaN(value)) {
+            return "expect(" + source + ").toEqual(" + value + ")" + s;
+        }
+        return "expect(" + source + ").toEqual(" + q + value + q + ")" + s;
+    }
+    else if (style === 'should') {
+        if (value === null || typeof value === 'boolean') {
+            return source + ".should.be.equal(" + value + ")" + s;
+        }
+        else if (typeof value === 'number' &amp;&amp; !isNaN(value)) {
+            return source + ".should.be.equal(" + value + ")" + s;
+        }
+        return source + ".should.be.equal(" + q + value + q + ")" + s;
+    }
+    if (value === null || typeof value === 'boolean') {
+        return "expect(" + source + ").be.equal(" + value + ")" + s;
+    }
+    else if (typeof value === 'number' &amp;&amp; !isNaN(value)) {
+        return "expect(" + source + ").be.equal(" + value + ")" + s;
+    }
+    return "expect(" + source + ").be.equal(" + q + value + q + ")" + s;
+}
+function generateThrowCheck(style, source, value, q, s, es6) {
+    if (style === 'jasmine') {
+        if (es6) {
+            return "expect(() =&gt; " + value + ").toThrow()" + s;
+        }
+        else {
+            return "expect(function() { " + value.replace(/;\s*$/, '') + s + " }).toThrow()" + s;
+        }
+    }
+    else if (style === 'should') {
+        if (es6) {
+            return "(() =&gt; " + value + ").should.to.throw()" + s;
+        }
+        else {
+            return "(function() { " + value.replace(/;\s*$/, '') + s + " }).should.to.throw()" + s;
+        }
+    }
+    if (es6) {
+        return "expect(() =&gt; " + value + ").to.throw()" + s;
+    }
+    else {
+        return "expect(function() { " + value.replace(/;\s*$/, '') + s + " }).to.throw()" + s;
+    }
+}
+function generateSpecForChai(target, options) {
+    var q = options.quote;
+    var s = options.semicolon ? ';' : '';
+    var style = options.style;
+    if (options.special) {
+        if (target === 'defined') {
+            return [generateDefinedCheck(style, options.variableName, target.length, q, s)];
+        }
+        else if (/^throw .+/.test(target)) {
+            return [generateThrowCheck(style, options.variableName, target.replace(/^throw /, ''), q, s, options.es6)];
+        }
+        return [];
+    }
+    if (target instanceof Array) {
+        options.specs.push(generateArrayCheck(style, options.variableName, q, s));
+        options.specs.push(generateArrayLengthCheck(style, options.variableName, target.length, q, s));
+        target.map(function (item, index) {
+            generateSpecForChai(item, Object.assign({}, options, {
+                variableName: options.variableName + "[" + index + "]"
+            }));
+        });
+        newLine(options.specs);
+    }
+    else if (typeof target === 'object') {
+        options.specs.push(generateObjectCheck(style, options.variableName, q, s));
+        Object.keys(target).map(function (key) {
+            options.specs.push(generatePropertyCheck(style, options.variableName, key, q, s));
+            var keyRef = /^[a-zA-Z0-9_]+$/g.test(key) ? "." + key : "[" + q + key + q + "]";
+            var variableName = "" + options.variableName + keyRef;
+            if (target[key] instanceof Array) {
+                generateSpecForChai(target[key], Object.assign({}, options, { variableName: variableName }));
+            }
+            else if (typeof target[key] === 'object') {
+                generateSpecForChai(target[key], Object.assign({}, options, { variableName: variableName }));
+            }
+            else {
+                options.specs.push(generateEqualCheck(style, variableName, target[key], q, s));
+            }
+            newLine(options.specs);
+        });
+    }
+    else if (target == undefined) {
+        options.specs.push(generateUndefinedCheck(style, options.variableName, target, q, s));
+    }
+    else {
+        options.specs.push(generateEqualCheck(style, options.variableName, target, q, s));
+    }
+    return options.specs;
+}
+//# sourceMappingURL=spec-generator.js.map</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Sat Feb 04 2017 13:39:21 GMT+0530 (IST)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>

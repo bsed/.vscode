@@ -1,0 +1,121 @@
+{
+	"name": "string-manipulation",
+	"displayName": "String Manipulation",
+	"description": "Format strings to camelize, dasherize, etc.",
+	"version": "0.0.2",
+	"publisher": "marclipovsky",
+	"repository": "https://github.com/marclipovsky/vscode-string-manipulation",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"keywords": [
+		"underscore",
+		"lodash",
+		"case",
+		"camelize",
+		"dasherize"
+	],
+	"categories": [
+		"Other"
+	],
+	"main": "./extension",
+	"activationEvents": [
+		"onCommand:string-manipulation.titlize",
+		"onCommand:string-manipulation.camelize",
+		"onCommand:string-manipulation.classify",
+		"onCommand:string-manipulation.underscored",
+		"onCommand:string-manipulation.dasherize",
+		"onCommand:string-manipulation.humanize",
+		"onCommand:string-manipulation.slugify",
+		"onCommand:string-manipulation.reverse",
+		"onCommand:string-manipulation.swapCase",
+		"onCommand:string-manipulation.decapitalize",
+		"onCommand:string-manipulation.capitalize",
+		"onCommand:string-manipulation.join"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"title": "Titlize",
+				"category": "String Manipulation",
+				"command": "string-manipulation.titlize"
+			},
+			{
+				"title": "Camelize",
+				"category": "String Manipulation",
+				"command": "string-manipulation.camelize"
+			},
+			{
+				"title": "Classify",
+				"category": "String Manipulation",
+				"command": "string-manipulation.classify"
+			},
+			{
+				"title": "Underscored",
+				"category": "String Manipulation",
+				"command": "string-manipulation.underscored"
+			},
+			{
+				"title": "Dasherize",
+				"category": "String Manipulation",
+				"command": "string-manipulation.dasherize"
+			},
+			{
+				"title": "Humanize",
+				"category": "String Manipulation",
+				"command": "string-manipulation.humanize"
+			},
+			{
+				"title": "Slugify",
+				"category": "String Manipulation",
+				"command": "string-manipulation.slugify"
+			},
+			{
+				"title": "Reverse",
+				"category": "String Manipulation",
+				"command": "string-manipulation.reverse"
+			},
+			{
+				"title": "Swap Case",
+				"category": "String Manipulation",
+				"command": "string-manipulation.swapCase"
+			},
+			{
+				"title": "Decapitalize",
+				"category": "String Manipulation",
+				"command": "string-manipulation.decapitalize"
+			},
+			{
+				"title": "Capitalize",
+				"category": "String Manipulation",
+				"command": "string-manipulation.capitalize"
+			},
+			{
+				"title": "Join Lines",
+				"category": "String Manipulation",
+				"command": "string-manipulation.join"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.32",
+		"@types/node": "^6.0.40",
+		"eslint": "^3.6.0",
+		"mocha": "^2.3.3",
+		"typescript": "^2.0.3",
+		"vscode": "0.11.18"
+	},
+	"dependencies": {
+		"underscore.string": "^3.3.4"
+	},
+	"__metadata": {
+		"id": "f458266d-2636-454c-86ba-1df8d80ed929",
+		"publisherId": "0bb81b3d-47b5-4792-9d22-906e374145af",
+		"publisherDisplayName": "marclipovsky"
+	}
+}

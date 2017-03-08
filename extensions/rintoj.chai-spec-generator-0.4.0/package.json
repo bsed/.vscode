@@ -1,0 +1,98 @@
+{
+	"name": "chai-spec-generator",
+	"displayName": "Test Spec Generator",
+	"description": "Generates spec assertion code for a selected object or array. Supports chai, should and jasmine formats",
+	"version": "0.4.0",
+	"publisher": "rintoj",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rintoj/chai-spec-generator.git"
+	},
+	"activationEvents": [
+		"onCommand:specGenerator.generate"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "specGenerator.generate",
+				"title": "Generate Test Spec"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "specGenerator.generate",
+				"title": "Generate Test Spec",
+				"key": "ctrl+m",
+				"mac": "cmd+m"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Configurations for Spec Generator",
+			"properties": {
+				"specGenerator.style": {
+					"type": "string",
+					"enum": [
+						"jasmine",
+						"chai",
+						"should"
+					],
+					"default": "chai",
+					"description": "Change spec style to 'jasmine', 'chai' or 'should'. See README.md for details."
+				},
+				"specGenerator.doubleQuote": {
+					"type": "boolean",
+					"default": false,
+					"description": "Set to true for double quotes instead of single quotes."
+				},
+				"specGenerator.variableName": {
+					"type": "string",
+					"default": "result",
+					"description": "Default variable name for generating spec. Eg: 'expect(result).to.exist;'"
+				},
+				"specGenerator.semicolon": {
+					"type": "boolean",
+					"default": true,
+					"description": "Set to true for adding semicolon at the end of each line"
+				},
+				"specGenerator.es6": {
+					"type": "boolean",
+					"default": true,
+					"description": "Set to true to use es6 style where ever applicable."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"tdd": "concurrently -r 'npm run compile' 'npm run test:watch'",
+		"test": "istanbul cover ./node_modules/mocha/bin/_mocha -- **/*.spec.js",
+		"test:watch": "nodemon --delay 1 --watch out --watch test --exec 'npm run test'"
+	},
+	"devDependencies": {
+		"@types/chai": "^3.4.34",
+		"chai": "^3.5.0",
+		"concurrently": "^3.1.0",
+		"istanbul": "^0.4.5",
+		"mocha": "^3.2.0",
+		"nodemon": "^1.11.0",
+		"typescript": "^2.1.5",
+		"vscode": "^0.11.0"
+	},
+	"license": "MIT",
+	"__metadata": {
+		"id": "f2805fba-3c45-4e64-a02e-365384682cfb",
+		"publisherId": "acd7e1ba-57e7-4f59-a2df-31d4e742ae74",
+		"publisherDisplayName": "rintoj"
+	}
+}

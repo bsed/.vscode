@@ -1,0 +1,38 @@
+{
+	"name": "MochaSnippets",
+	"description": "Mocha snippets for Visual Studio Code",
+	"version": "0.0.1",
+	"publisher": "Alan",
+	"icon": "images/mocha-logo.png",
+	"galleyBanner": {
+		"color": "#FBFBFB",
+		"theme": "dark"
+	},
+	"bugs": {
+		"url": "https://github.com/AlanCezarAraujo/vs-code-mocha/issues"
+	},
+	"homepage": "https://github.com/AlanCezarAraujo/vs-code-mocha/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AlanCezarAraujo/vs-code-mocha.git"
+	},
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "60fcd82b-ae58-46ed-9bbd-a2ea60cdeb60",
+		"publisherId": "43064bb0-4d06-465a-910a-8abc2fe1d00c",
+		"publisherDisplayName": "AlanCezarAraujo"
+	}
+}
